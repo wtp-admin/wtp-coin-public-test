@@ -1,0 +1,32 @@
+﻿# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# Wallets, keys, credentials, and local secrets
+*.pem
+*.key
+private*key
+secret
+seed
+wallet*.txt
+wallet.txt
+address*.txt
+address.txt
+Crypto-Wallet-Addresses/
+
+# Local blockchain and transaction data
+wtp_blockchain*.json
+wtp_pending_transactions*.json
+
+# Backups and temporary files
+backup
+*.bak
+.bak.
+*.before
+.before.
+.pre_
+WTP-Backup/
